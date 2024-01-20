@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Whl_WarpGate
+  m_Shader: {fileID: 4800000, guid: c605ae4fc98a1ed4fb93212f34a69d5f, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Appear: 2
+    - _Count: 1
+    - _Float2: 1
+    - _Float3: 0.388
+    - _Keyword0: 0
+    - _PivotPointChange: 0
+    - _RotCount: 2
+    - _Rotation: 0
+    - _RotationMode: 0
+    - _ScriptContorl: 0
+    - _ScriptControl: 0
+    - __dirty: 0
+    m_Colors:
+    - _Range: {r: 0, g: 0.2, b: 0, a: 0}
+    - _RotationAxis: {r: 0, g: 0, b: 1, a: 0}
+    - _Vector0: {r: 0, g: 1, b: 0, a: 0}
+    - _Vector1: {r: 0, g: 0, b: 0, a: 0}
+    - _Vector2: {r: 0, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

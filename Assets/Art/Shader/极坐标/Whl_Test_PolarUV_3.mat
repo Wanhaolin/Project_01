@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Whl_Test_PolarUV_3
+  m_Shader: {fileID: 4800000, guid: ae894c17029345a41955f01b98a487ff, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 97e025780f6291a41a55086ccd1c5302, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Count: 3
+    - _Invert_U: 0
+    - _Length: 0.187
+    - _Min_U: 1
+    - _Panner: 0.2
+    - _Radius: 0.132
+    - _Smoothness: 0.19
+    - __dirty: 0
+    m_Colors:
+    - _EmissionColor: {r: 4, g: 1.3192093, b: 0, a: 0}
+  m_BuildTextureStacks: []
