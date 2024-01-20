@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: VFX_PandaPostV1.0
+  m_Shader: {fileID: 4800000, guid: 5b739e600ec1b0449b3375ab46404917, type: 3}
+  m_ShaderKeywords: _COLORSTYLE_NORMAL _TEXAR_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Logo:
+        m_Texture: {fileID: 2800000, guid: fdbfea53e2ddea04c98f0c3e2f66a489, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0.23}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BlurFactor: 0.565
+    - _BlurFactorK: 0
+    - _ColorStyle: 0
+    - _IfBlurFactor: 1
+    - _IfLineUVScale: 1
+    - _IfMainAlpha: 1
+    - _IfRedBlueFactor: 1
+    - _IfStepFactor: 0
+    - _IfVignettePower: 1
+    - _IfVignetteScale: 1
+    - _Ifzhenfu: 1
+    - _Ifzhenpin: 1
+    - _LineColorScale: 0
+    - _LineOffset: 0
+    - _LineTilingU: 0.63
+    - _LineTilingV: 1
+    - _LineUVScale: 3.74
+    - _LineUVScaleK: 0
+    - _LogoAR: 0
+    - _LogoAlpha: 0.055
+    - _MainAlpha: 0.483
+    - _MainAlphaK: 1
+    - _RedBlueFactor: 0.384
+    - _RedBlueFactorK: 0
+    - _Soft: 0.063
+    - _StepFactor: 0.6
+    - _StepFactorK: 0.5
+    - _TexAR: 1
+    - _TexAlpha: 0
+    - _TexRotator: 0.075
+    - _VignettePower: 1.693
+    - _VignettePowerK: 0.2
+    - _VignetteScale: 1.7
+    - _VignetteScaleK: 0.1
+    - _centerU: 0.5
+    - _centerV: 0
+    - _zhenfu: 0
+    - _zhenfuK: 0
+    - _zhenpin: 0
+    - _zhenpinK: 1
+    m_Colors:
+    - _Color1: {r: 1, g: 1, b: 1, a: 0}
+    - _Color2: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
