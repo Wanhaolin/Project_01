@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: vine_1
+  m_Shader: {fileID: 4800000, guid: 0636f110f9ca551458e5dba8e7d031bb, type: 3}
+  m_ShaderKeywords: _ALPHACHANNEL_ON _DISSOLUTIONON_ON _FOGON_ON _SOFTPARTICLE_ON
+    _TOGGLESWITCH4_ON _UV1_TCONTORLDIS_ON _UV2_WTCONTORLOFFSET_ON _VERTEXOFFSETON_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DissolutionTex:
+        m_Texture: {fileID: 2800000, guid: f69b5bbf3863af147872e70002ed843e, type: 3}
+        m_Scale: {x: 0.5, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 7d2e76a76747b2b4ab1da697163ef330, type: 3}
+        m_Scale: {x: 2, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexOffsetMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexOffsetTex:
+        m_Texture: {fileID: 2800000, guid: 08697de5c04370349835b5ecc1b30810, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaChannel: 1
+    - _CullMode: 0
+    - _Cutoff: 0.5
+    - _Dissolution: 0.476
+    - _DissolutionOn: 1
+    - _Distance: 500
+    - _DisturbRamp: 0
+    - _Dst: 10
+    - _End: 220
+    - _FadeRange: 1
+    - _Float10: 0.099
+    - _Float14: 0.1
+    - _FogOn: 1
+    - _FreInvers: 0
+    - _FreOn: 0
+    - _FrePower: 5
+    - _FreScale: 1
+    - _HeadCutRange: 0.495
+    - _Invers: 0
+    - _RampDisStr: 0
+    - _Rotater: 0
+    - _SoftParticle: 1
+    - _Start: 0
+    - _ToggleSwitch4: 1
+    - _UV1_TContorlDis: 1
+    - _UV1_WContorlVertexOffset: 0
+    - _UV2_WTContorlOffset: 1
+    - _UV2_WTControlOffset: 0
+    - _VertexOffsetOn: 1
+    - _VertexOffsetStr: 0.77
+    - _ZTestMode: 4
+    - _ZWriteMode: 0
+    - __dirty: 0
+    m_Colors:
+    - _DissEdgeColor: {r: 0.26813015, g: 0.82747537, b: 3.3835502, a: 0}
+    - _DissolutionTexPanner: {r: 0, g: -0.2, b: 1, a: 0}
+    - _FogColor: {r: 0.65882355, g: 0.5907191, b: 0.73333335, a: 0}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 0}
+    - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _OffsetDir: {r: 1, g: 1, b: 1, a: 0}
+    - _VertexOffsetTexPanner: {r: 0, g: 0, b: 1, a: 0}
+  m_BuildTextureStacks: []

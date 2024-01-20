@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: flow_3_2
+  m_Shader: {fileID: 4800000, guid: d46c487deb0a96840b2527cb94ed1a34, type: 3}
+  m_ShaderKeywords: _ALPHACHANNEL_ON _DISSOLUTIONON_ON _TOGGLESWITCH4_ON _UV2_WTCONTROLOFFSET_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DissolutionTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 0.2, y: 0.29}
+        m_Offset: {x: 0, y: 0}
+    - _DisturbTex:
+        m_Texture: {fileID: 2800000, guid: b111d5f279d12c64c844b5cc4f357c2a, type: 3}
+        m_Scale: {x: 7, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _FadeTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 2eda5bbd0a3045f48b244533790ad997, type: 3}
+        m_Scale: {x: 1, y: 1.5}
+        m_Offset: {x: 0, y: -0.5}
+    - _Mask_Tex:
+        m_Texture: {fileID: 2800000, guid: 06bd7f2ec90feec49be3b7bf9488336d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 2800000, guid: 45296aaf6a239694189d194d6fd5f45e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexOffsetMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexOffsetTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AlphaChannel: 1
+    - _BackFaceIntensity: 1
+    - _BackFaceOn: 0
+    - _ClampUVSet: 1
+    - _CullMode: 0
+    - _DissHardness: 0.51
+    - _DissLinePower: 1
+    - _Dissolution: 0
+    - _DissolutionOn: 1
+    - _DissolutionSoft: 0.948
+    - _DisturType: 1
+    - _DisturbFadeTex: 0
+    - _DisturbMain: 0
+    - _DisturbOn: 0
+    - _DisturbRamp: 0
+    - _DisturbStr: -0.15
+    - _Dst: 1
+    - _FadeRange: 1
+    - _Float10: 0
+    - _Float14: 0.1
+    - _Float6: 1
+    - _FreInvers: 0
+    - _FreOn: 0
+    - _FrePower: 5
+    - _FreScale: 1
+    - _Invers: 0
+    - _OwnUV: 0
+    - _RGBA: 0
+    - _RampDisStr: 0
+    - _Rotater: 0
+    - _SoftParticle: 0
+    - _ToggleSwitch4: 1
+    - _ToggleSwitch8: 0
+    - _UV1_TContorlDis: 0
+    - _UV1_WContorlVertexOffset: 0
+    - _UV2_WTControlOffset: 1
+    - _UV3_XContorlDisturb: 0
+    - _UVType: 1
+    - _VertexOffsetOn: 0
+    - _VertexOffsetStr: 1
+    - _ZTestMode: 8
+    - _ZWriteMode: 0
+    - __dirty: 0
+    m_Colors:
+    - _BackFaceColor: {r: 0, g: 0, b: 0, a: 0}
+    - _DissEdgeColor: {r: 1, g: 1, b: 1, a: 0}
+    - _DissolutionTexPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _DisturbDir: {r: 1, g: 0.5, b: 0, a: 0}
+    - _DisturbPanner: {r: 0, g: -0.4, b: 1, a: 0}
+    - _FadeTexPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _MainColor: {r: 2.996078, g: 2.996078, b: 2.996078, a: 0}
+    - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _MaskTexPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _OffsetDir: {r: 1, g: 1, b: 1, a: 0}
+    - _ScreenTilingOffset: {r: 1, g: 1, b: 0, a: 0}
+    - _VertexOffsetTexPanner: {r: 0, g: 0, b: 1, a: 0}
+  m_BuildTextureStacks: []

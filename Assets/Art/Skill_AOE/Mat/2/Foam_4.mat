@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Foam_4
+  m_Shader: {fileID: 4800000, guid: 79b8e23a03e350147920839f206c1b83, type: 3}
+  m_ShaderKeywords: _CONTROLALPHA_ON _DISTURBON_ON _UV1_TCONTORLDIS_ON _UV1_WCONTORLEDGEWIDTH_ON
+    _UV2CONTROLOFFSET_ON
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DissolveTex:
+        m_Texture: {fileID: 2800000, guid: f69b5bbf3863af147872e70002ed843e, type: 3}
+        m_Scale: {x: 7, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _DisturbTex:
+        m_Texture: {fileID: 2800000, guid: 1a7f074f01ec95d45a96f2f6196edd36, type: 3}
+        m_Scale: {x: 3, y: 3}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 1aecc866684cb7c488f9f3bd1c5fb73f, type: 3}
+        m_Scale: {x: 1, y: 1.5}
+        m_Offset: {x: 0, y: -0.27}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: 67738fcc7cc1b9a44a2969bdfed61080, type: 3}
+        m_Scale: {x: 3, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 2800000, guid: 21b93a22e93caab489ec4fefe73ae7cb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0.02}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 29fd5e15a98d9b3468079bf05152569e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexOffsetTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ControlAlpha: 1
+    - _CullMode: 0
+    - _Dissolution: 0
+    - _Dissolve: 0.552
+    - _DisturbOn: 1
+    - _DisturbStr: 0.05
+    - _EdgeSoft: 1
+    - _EdgeWidth: 0
+    - _FadeRange: 0.5
+    - _Float5: 0.1
+    - _OneMinus: 0
+    - _RampMul: 2.22
+    - _Rotater: 0
+    - _Soft: 0.675
+    - _SoftParticle: 0
+    - _UV1_TContorlDis: 1
+    - _UV1_WContorlEdgeWidth: 1
+    - _UV2ControlOffset: 1
+    - _VertexOffsetOn: 0
+    - _VertexOffsetStr: 1
+    - _ZTestMode: 4
+    - __dirty: 0
+    m_Colors:
+    - _Color1: {r: 0.85882354, g: 0.2, b: 0.32959569, a: 0.49019608}
+    - _Color2: {r: 1.909012, g: 0.40521488, b: 0.66900927, a: 0.34901962}
+    - _DissolutionTexPanner: {r: 0, g: -0.7, b: 1, a: 0}
+    - _DisturbPanner: {r: 0, g: -1, b: 1, a: 0}
+    - _EdgeColor: {r: 2.9960785, g: 2.9960785, b: 2.9960785, a: 0.21960784}
+    - _MainColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _VertexOffsetTexPanner: {r: 0, g: 0, b: 1, a: 0}
+  m_BuildTextureStacks: []

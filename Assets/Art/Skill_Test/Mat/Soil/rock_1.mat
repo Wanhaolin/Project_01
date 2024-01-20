@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: rock_1
+  m_Shader: {fileID: 4800000, guid: 077ae743a6c9dbf46b0e7b1b4239c4dc, type: 3}
+  m_ShaderKeywords: _GAMPONE_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AOMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Albedo:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Diffuse:
+        m_Texture: {fileID: 2800000, guid: c04b705f7e375fc4ba85031deecb9043, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseTex:
+        m_Texture: {fileID: 2800000, guid: a020ee7462752a54c9de647d3019f702, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Height:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LightDir:
+        m_Texture: {fileID: 2800000, guid: 6c4bd7b31c3a4dc4fa0792a443a3174b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LightMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Occlusion:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutLine:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OutLineTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RainDrop:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RongJie:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RoughnessMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Smoothness:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterNormal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _2UV: 0
+    - _ACES: 0
+    - _BaseColorIntensity: 1
+    - _BlendContrast: 0
+    - _Columns: 8
+    - _CoverColorIntensity: 0
+    - _Cutoff: 0.5
+    - _Distance_Opacity: 0
+    - _FogDistanceEnd: 700
+    - _FogDistanceStart: 0
+    - _FogHeightEnd: 700
+    - _FogHeightStart: 0
+    - _FogHightEmissionEnd: 700
+    - _FogHightEmissionStart: 0
+    - _FogIntensity: 0
+    - _Frenel: 0
+    - _FrenelPower: 2
+    - _GampOne: 1
+    - _Gloss: 1.15
+    - _HighLine: 1
+    - _HightEmissionIntensity: 0
+    - _Hight_Opacity: 0
+    - _LMU_Speed: 0
+    - _LMV_Spped: 0
+    - _Light: 0
+    - _LightFrenel: 0
+    - _LightFresnelPower: 0
+    - _LightMul: 1
+    - _LmpIntensity: 1
+    - _Mul: 20
+    - _NormalIntensity: 0
+    - _OpacityIntensity: 1
+    - _OpacityMax: 0
+    - _OpacityMin: 0
+    - _OutLinePower: 0
+    - _POMPlane: 0
+    - _POMScale: 0
+    - _PosGamp: 0
+    - _Power: 7
+    - _PuddleDepth: 0
+    - _RainDropSpeed: 0
+    - _RainDropTilling: 0
+    - _RainIntensity: 0
+    - _RongJieON: 0
+    - _RongJieQieNO: 0
+    - _RongJieZhi: 0
+    - _RoughnessMax: 1
+    - _RoughnessMin: 1
+    - _SelfAlpha: 0
+    - _SelfUV: 0
+    - _SmoothIntensity: 0
+    - _Specular: -0.01
+    - _SunFogIntensity: 0
+    - _SunFogRange: 0
+    - _Tilling: 1
+    - _UseLmp: 0
+    - _WaterRoughness: 0
+    - _WaveIntensity: 0.2
+    - _WaveTilling: 0
+    - __dirty: 0
+    m_Colors:
+    - _BaseColor: {r: 0.35008898, g: 0.39365596, b: 0.41509432, a: 0}
+    - _CoverColor: {r: 0, g: 0, b: 0, a: 0}
+    - _DiffuseCOloer: {r: 0.5294118, g: 0.41949162, b: 0.3254902, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _FogColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Fresnecolor: {r: 1, g: 1, b: 1, a: 1}
+    - _GampColor: {r: 1, g: 1, b: 1, a: 1}
+    - _HightEmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _Lightcolor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _LmpColor: {r: 1, g: 1, b: 1, a: 1}
+    - _OutLineColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _PudlleColor: {r: 0, g: 0, b: 0, a: 0}
+    - _ShaowColor: {r: 0.3490566, g: 0.26076967, b: 0.20877536, a: 0}
+    - _SunFogColor: {r: 0, g: 0, b: 0, a: 0}
+    - _SunLightDir: {r: 0, g: 0, b: 1, a: 0}
+    - _WaveSpeed: {r: 1, g: 1, b: 0, a: 0}
+  m_BuildTextureStacks: []

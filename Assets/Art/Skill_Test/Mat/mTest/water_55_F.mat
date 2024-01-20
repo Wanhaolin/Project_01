@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: water_55_F
+  m_Shader: {fileID: 4800000, guid: 419c5fd847d7c1f4084de4f4d18884cf, type: 3}
+  m_ShaderKeywords: _DISSOLUTIONON_ON _DISTURBFADETEX_ON _DISTURBON_ON _SOFTPARTICLE_ON
+    _UV1_TCONTORLDIS_ON _UV1_WCONTORLVERTEXOFFSET_ON _UV2CONTROLOFFSET_ON _UV2_WTCONTROLOFFSET_ON
+    _VERTEXOFFSETON_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DissolutionTex:
+        m_Texture: {fileID: 2800000, guid: f69b5bbf3863af147872e70002ed843e, type: 3}
+        m_Scale: {x: 2, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _DisturbTex:
+        m_Texture: {fileID: 2800000, guid: 7925dfa00900a4f4383f4ae7a94c3799, type: 3}
+        m_Scale: {x: 0.5, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _FadeTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask_Tex:
+        m_Texture: {fileID: 2800000, guid: 5063f051a54d0774d8193906e8cfb9de, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise2Tex:
+        m_Texture: {fileID: 2800000, guid: 914a5439765647d4c8d2458461ff477a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: 00a808454f12bb541a47a5312dfaef94, type: 3}
+        m_Scale: {x: 1, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _RampTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexOffsetMask:
+        m_Texture: {fileID: 2800000, guid: c52f18f9a3ad49379bb0d8a16d3e8cd8, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexOffsetTex:
+        m_Texture: {fileID: 2800000, guid: b111d5f279d12c64c844b5cc4f357c2a, type: 3}
+        m_Scale: {x: 1, y: 0.5}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord3:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BackFaceIntensity: 1
+    - _BackFaceOn: 0
+    - _ColorChange: 1
+    - _CullMode: 2
+    - _DisInvers: 1
+    - _Dissolution: 0
+    - _DissolutionOn: 1
+    - _DissolutionSoft: 0.602
+    - _DisturbFadeTex: 1
+    - _DisturbOn: 1
+    - _DisturbRamp: 0
+    - _DisturbStr: 0.1
+    - _Dst: 10
+    - _FadeRange: 0.5
+    - _FreInvers: 0
+    - _FreOn: 0
+    - _FrePower: 5
+    - _FreScale: 1
+    - _Hardness: 0
+    - _MainTexHardness: 0
+    - _OwnUV: 0
+    - _RGBA: 0
+    - _RampDisStr: 0
+    - _Rotater: 0
+    - _SoftParticle: 1
+    - _SubColorHardness: 0
+    - _SubColorRange: 0
+    - _UV1_TContorlDis: 1
+    - _UV1_WContorlVertexOffset: 1
+    - _UV2ControlOffset: 1
+    - _UV2_WTControlOffset: 1
+    - _UV3_XContorlDisturb: 0
+    - _UV3_XContorlSubColorRange: 0
+    - _VertexOffsetOn: 1
+    - _VertexOffsetStr: 0
+    - _ZTestMode: 4
+    - _ZWriteMode: 0
+    - __dirty: 0
+    m_Colors:
+    - _BackFaceColor: {r: 2, g: 2, b: 2, a: 0}
+    - _DissolutionTexPanner: {r: 0, g: -0.3, b: 1, a: 0}
+    - _DisturbDir: {r: 0, g: 1, b: 0, a: 0}
+    - _DisturbPanner: {r: 0.25, g: 0, b: 1, a: 0}
+    - _FadeTexPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _MainColor: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 1}
+    - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _MaskTexPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _NoiseTex2Panner: {r: -1, g: 0, b: 1, a: 0}
+    - _NoiseTexPanner: {r: -1, g: 0, b: 1, a: 0}
+    - _OffsetDir: {r: 1, g: 0, b: 0, a: 0}
+    - _SubColor: {r: 2.670157, g: 2.670157, b: 2.670157, a: 1}
+    - _VertexOffsetTexPanner: {r: 0, g: 1, b: 1, a: 0}
+  m_BuildTextureStacks: []

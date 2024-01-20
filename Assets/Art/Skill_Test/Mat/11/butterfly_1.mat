@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: butterfly_1
+  m_Shader: {fileID: 4800000, guid: 58fae131fd52b0f47b75af68cd16abe3, type: 3}
+  m_ShaderKeywords: _DISSOLUTIONON_ON _UV1_TCONTORLDIS_ON _UV2CONTROLOFFSET_ON _UV2_XYCONTROLOFFSET_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DissolutionTex:
+        m_Texture: {fileID: 2800000, guid: ceb50485139911740b046010a8955c2a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: ef8dc74d67945894195b99d4243e1ff4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Mask:
+        m_Texture: {fileID: 2800000, guid: 6c4bd7b31c3a4dc4fa0792a443a3174b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexOffsetTex:
+        m_Texture: {fileID: 2800000, guid: 7ad0fd9f902062140824977f9eca4c4e, type: 3}
+        m_Scale: {x: 0.4, y: 0.4}
+        m_Offset: {x: 0, y: 0.15}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _DissHardness: 0.732
+    - _Dissolution: 0
+    - _Dissolution1: 0
+    - _DissolutionOn: 1
+    - _DownStr: -0.3
+    - _Float0: 0.34
+    - _Invers: 0
+    - _UV1_TContorlDis: 1
+    - _UV1_WContorlRandomOffset: 0
+    - _UV2ControlOffset: 1
+    - _UV2_WContorlOffsetStr: 0
+    - _UV2_XYControlOffset: 1
+    - _VertexOffsetStr: 0.5
+    - __dirty: 0
+    m_Colors:
+    - _BaseColor: {r: 5.992157, g: 5.992157, b: 5.992157, a: 1}
+    - _DissolutionTexPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _Panner: {r: -4, g: 0, b: 1, a: 0}
+  m_BuildTextureStacks: []

@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Fire_1_2
+  m_Shader: {fileID: 4800000, guid: da4aa58b7c64da94aacca5b55f616a5f, type: 3}
+  m_ShaderKeywords: _SOFTPARTICLE_ON _UV1_TCONTORLDIS_ON _UV1_WCONTORLVERTEXOFFSET_ON
+    _UV2CONTROLOFFSET_ON _VERTEXOFFSETON_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 2ccf70de7b4f46840a6f02cfbabd42be, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise2Tex:
+        m_Texture: {fileID: 2800000, guid: 914a5439765647d4c8d2458461ff477a, type: 3}
+        m_Scale: {x: 5.5, y: 4}
+        m_Offset: {x: 0, y: 1.3}
+    - _NoiseTex:
+        m_Texture: {fileID: 2800000, guid: df694b318d7f8274b8b571ce1777542d, type: 3}
+        m_Scale: {x: 3, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _VertexOffsetMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexOffsetTex:
+        m_Texture: {fileID: 2800000, guid: b111d5f279d12c64c844b5cc4f357c2a, type: 3}
+        m_Scale: {x: 2, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord2:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorChange: 1
+    - _CullMode: 2
+    - _DisInvers: 1
+    - _Dissolution: 0
+    - _FadeRange: 1
+    - _Hardness: 0.729
+    - _MainTexHardness: 0
+    - _SoftParticle: 1
+    - _SubColorHardness: 0.905
+    - _SubColorRange: 0.88
+    - _UV1_TContorlDis: 1
+    - _UV1_WContorlVertexOffset: 1
+    - _UV2ControlOffset: 1
+    - _VertexOffsetOn: 1
+    - _VertexOffsetStr: 4
+    - _ZTestMode: 4
+    - __dirty: 0
+    m_Colors:
+    - _MainColor: {r: 9.114405, g: 1.6441672, b: 0, a: 1}
+    - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _NoiseTex2Panner: {r: -1.7, g: -2, b: 1, a: 0}
+    - _NoiseTexPanner: {r: -1.3, g: 0, b: 1, a: 0}
+    - _SubColor: {r: 0.37735844, g: 0.054951876, b: 0, a: 1}
+    - _VertexOffsetTexPanner: {r: 0.5, g: 0, b: 1, a: 0}
+  m_BuildTextureStacks: []
