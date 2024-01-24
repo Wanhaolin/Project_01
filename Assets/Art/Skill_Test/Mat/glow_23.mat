@@ -35,7 +35,15 @@ Material:
         m_Texture: {fileID: 2800000, guid: 062bf1c57f89ee5478b57411f9cbe562, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _Mask_Tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _RampTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexOffsetMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -62,9 +70,13 @@ Material:
     - _DissolutionSoft: 0.3935294
     - _DisturbFadeTex: 0
     - _DisturbOn: 0
+    - _DisturbRamp: 0
     - _DisturbStr: 0
     - _FadeRange: 1
+    - _FreOn: 0
+    - _FreScale: 1
     - _RGB: 0
+    - _RampDisStr: 0
     - _Rotater: 0
     - _SoftParticle: 0
     - _UV1_TContorlDis: 0
@@ -81,7 +93,9 @@ Material:
     - _DissolutionTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _DisturbDir: {r: 1, g: 1, b: 0, a: 0}
     - _DisturbPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _FadeTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _MainColor: {r: 2.9960785, g: 2.9960785, b: 2.9960785, a: 0}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _OffsetDir: {r: 1, g: 1, b: 1, a: 0}
     - _VertexOffsetTexPanner: {r: 0, g: 0, b: 1, a: 0}
   m_BuildTextureStacks: []
