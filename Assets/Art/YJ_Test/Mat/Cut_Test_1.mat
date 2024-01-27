@@ -76,8 +76,8 @@ Material:
     - _Float5: 1.02
     - _Hardness: 0.36
     - _Power: 1.5
-    - _Rotater: 203
-    - _Rotater2: 200
+    - _Rotater: 88
+    - _Rotater2: 199
     - _Rotater3: 141
     - _Rotater4: 145
     - _Rotater5: 104
@@ -91,14 +91,14 @@ Material:
     - __dirty: 0
     m_Colors:
     - _DisturTiling: {r: 5, g: 2, b: 0, a: 0}
-    - _DisturbPanner: {r: 0.1, g: 1.5, b: 1, a: 0}
+    - _DisturbPanner: {r: 0.1, g: 2, b: 1, a: 0}
     - _DotColor: {r: 0.7936236, g: 2.588434, b: 2.0472424, a: 1}
     - _DotPanner: {r: 0, g: -0.5, b: 1, a: 0}
     - _DotTiling: {r: 10, g: 0.01, b: 0, a: 0}
-    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0.83137256, g: 1.0901961, b: 1.4980392, a: 1}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _SoftTilingOffset: {r: 2, g: 2, b: 0, a: 0.58}
-    - _TilingOffset: {r: 2.03, g: 0.81, b: -0.19, a: 0}
+    - _TilingOffset: {r: 0.04, g: 0.39, b: 0.23, a: -0.01}
     - _VertexNoisePanner: {r: 0, g: -2.5, b: 1, a: 0}
     - _VertexOffsetPanner: {r: 0, g: 2, b: 1, a: 0}
   m_BuildTextureStacks: []

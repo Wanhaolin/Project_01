@@ -24,7 +24,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DotTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 7fb1b7a1c6a48df42ade1df70ae5000b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -77,7 +77,7 @@ Material:
     - _Hardness: 0.36
     - _Power: 1.5
     - _Rotater: 199
-    - _Rotater2: 138
+    - _Rotater2: 110
     - _Rotater3: 141
     - _Rotater4: 145
     - _Rotater5: 104
@@ -86,16 +86,16 @@ Material:
     - _SoftParticle: 0
     - _Tiling: 5
     - _UV1_WTContorlOffset: 1
-    - _VertexOffsetStr: 250
+    - _VertexOffsetStr: 189.62
     - _ZTestMode: 4
     - __dirty: 0
     m_Colors:
     - _DisturTiling: {r: 5, g: 2, b: 0, a: 0}
     - _DisturbPanner: {r: 0, g: 2, b: 1, a: 0}
-    - _DotColor: {r: 0, g: 2.9144402, b: 8, a: 1}
-    - _DotPanner: {r: 0, g: -0.5, b: 1, a: 0}
-    - _DotTiling: {r: 5, g: 0.01, b: 0, a: 0}
-    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DotColor: {r: 32.54128, g: 65.05128, b: 125.43182, a: 1}
+    - _DotPanner: {r: 0.1, g: 0.5, b: 1, a: 0}
+    - _DotTiling: {r: 0.1, g: 5, b: 0, a: 0}
+    - _EmissionColor: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 1}
     - _MainTexPanner: {r: 1, g: 0, b: 1, a: 0}
     - _SoftTilingOffset: {r: 2, g: 2, b: 0, a: 0.58}
     - _TilingOffset: {r: 1, g: 1, b: 0, a: 0.58}
