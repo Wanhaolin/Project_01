@@ -87,6 +87,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _ClampTex: 0
+    - _ColorScale: 1
     - _CullMode: 0
     - _DissU_Speed: 0
     - _DissV_Speed: 0
