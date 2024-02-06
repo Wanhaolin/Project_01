@@ -1,0 +1,415 @@
+fileFormatVersion: 2
+guid: 9664d62cba29d294dbca6ecba2c87202
+ModelImporter:
+  serializedVersion: 20300
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: skill_D(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: left
+      parentName: skill_D(Clone)
+      position: {x: 10.000999, y: 0.14171548, z: -0.21523286}
+      rotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: wy01m_low_rig:root
+      parentName: skill_D(Clone)
+      position: {x: 0, y: 0.037244275, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: wy01m_low_rig:spline1_jnt_skin
+      parentName: wy01m_low_rig:root
+      position: {x: 7.7463585e-17, y: 1.0248469, z: 0.014622748}
+      rotation: {x: 0.000000011641532, y: 0.000000023283064, z: 0.000000023283064,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: wy01m_low_rig:spline3_jnt_skin
+      parentName: wy01m_low_rig:spline1_jnt_skin
+      position: {x: 0.00012205104, y: 0.13012613, z: 0.00016123863}
+      rotation: {x: 0.49999997, y: -0.50000006, z: 0.5, w: -0.5}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: wy01m_low_rig:spline5_jnt_skin
+      parentName: wy01m_low_rig:spline3_jnt_skin
+      position: {x: -0.12916428, y: -0.010017471, z: -0.0049324343}
+      rotation: {x: -0.000000029802322, y: 0.000000029802322, z: 0.000000014901161,
+        w: -1}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000005}
+    - name: wy01m_low_rig:Lf_clavicle1_jnt_skin
+      parentName: wy01m_low_rig:spline5_jnt_skin
+      position: {x: -0.16161227, y: 0.0028377722, z: -0.021102203}
+      rotation: {x: 0.5269152, y: -0.54032457, z: 0.470558, w: 0.4571488}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: wy01m_low_rig:Lf_Arm1_jnt_skin
+      parentName: wy01m_low_rig:Lf_clavicle1_jnt_skin
+      position: {x: -0.15173236, y: 1.4210854e-15, z: -1.2434498e-16}
+      rotation: {x: 0.0008364916, y: 0.086755574, z: -0.0019009411, w: 0.9962275}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: wy01m_low_rig:Lf_Arm5_jnt_skin
+      parentName: wy01m_low_rig:Lf_Arm1_jnt_skin
+      position: {x: -0.28162786, y: 2.9842794e-15, z: 5.542233e-15}
+      rotation: {x: 0.0023327554, y: 0.021886049, z: -0.0061756964, w: 0.9997387}
+      scale: {x: 1.0000005, y: 1, z: 1.0000004}
+    - name: wy01m_low_rig:Lf_Arm9_jnt_skin
+      parentName: wy01m_low_rig:Lf_Arm5_jnt_skin
+      position: {x: -0.20333512, y: -9.521272e-15, z: 1.7585932e-15}
+      rotation: {x: 0.000000038882707, y: 0.077848606, z: 0.005858494, w: 0.99694806}
+      scale: {x: 1, y: 1.0000004, z: 1.0000002}
+    - name: wy01m_low_rig:Lf_thumb1_jnt_skin
+      parentName: wy01m_low_rig:Lf_Arm9_jnt_skin
+      position: {x: -0.0365441, y: -0.020113166, z: 0.017092884}
+      rotation: {x: 0.5762655, y: 0.32381803, z: -0.16465086, w: 0.7320862}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000002}
+    - name: wy01m_low_rig:Lf_thumb2_jnt_skin
+      parentName: wy01m_low_rig:Lf_thumb1_jnt_skin
+      position: {x: -0.05716898, y: -0.0026747175, z: -2.0605739e-15}
+      rotation: {x: -0.00000038742996, y: -0.0000009983772, z: 0.07764427, w: 0.99698114}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000002}
+    - name: wy01m_low_rig:Lf_thumb3_jnt_skin
+      parentName: wy01m_low_rig:Lf_thumb2_jnt_skin
+      position: {x: -0.027971756, y: 0.00094375556, z: 3.7658763e-15}
+      rotation: {x: -0.000000007317479, y: -0.00000004180691, z: 0.07067574, w: 0.99749935}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000004}
+    - name: wy01m_low_rig:Lf_index1_jnt_skin
+      parentName: wy01m_low_rig:Lf_Arm9_jnt_skin
+      position: {x: -0.11632757, y: 0.00016817093, z: 0.028455606}
+      rotation: {x: -0.0018470745, y: -0.008903329, z: 0.043110136, w: 0.9990289}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1.0000004}
+    - name: wy01m_low_rig:Lf_index2_jnt_skin
+      parentName: wy01m_low_rig:Lf_index1_jnt_skin
+      position: {x: -0.04669294, y: -0.00018388242, z: 7.4606985e-16}
+      rotation: {x: 0.000000047497434, y: -0.0000000018626445, z: 0.0425008, w: 0.99909645}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000006}
+    - name: wy01m_low_rig:Lf_index3_jnt_skin
+      parentName: wy01m_low_rig:Lf_index2_jnt_skin
+      position: {x: -0.026434038, y: 0.000049923896, z: -1.0302869e-15}
+      rotation: {x: 0.0000000010864941, y: -0.00000003615283, z: 0.024832448, w: 0.9996916}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: wy01m_low_rig:Lf_mid1_jnt_skin
+      parentName: wy01m_low_rig:Lf_Arm9_jnt_skin
+      position: {x: -0.10869457, y: -0.0011206317, z: -0.017432902}
+      rotation: {x: -0.0026899588, y: -0.10959376, z: 0.06935939, w: 0.9915499}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000004}
+    - name: wy01m_low_rig:Lf_mid2_jnt_skin
+      parentName: wy01m_low_rig:Lf_mid1_jnt_skin
+      position: {x: -0.043099545, y: 0.00023494163, z: -5.684342e-16}
+      rotation: {x: 0.0000000311993, y: 0.000000029802315, z: 0.015729181, w: 0.9998764}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: wy01m_low_rig:Lf_mid3_jnt_skin
+      parentName: wy01m_low_rig:Lf_mid2_jnt_skin
+      position: {x: -0.027455384, y: 0.0000056672648, z: 2.1316282e-16}
+      rotation: {x: -0.000000025542386, y: -0.000000021901265, z: 0.0016468035, w: 0.9999987}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+    - name: wy01m_low_rig:cloth_Jnt1
+      parentName: wy01m_low_rig:Lf_Arm5_jnt_skin
+      position: {x: -0.018914862, y: -0.021222917, z: 0.085859805}
+      rotation: {x: -0.023810172, y: -0.22577164, z: 0.03681029, w: 0.97319335}
+      scale: {x: 0.99999994, y: 1.0000004, z: 0.9999998}
+    - name: wy01m_low_rig:cloth_Jnt2
+      parentName: wy01m_low_rig:cloth_Jnt1
+      position: {x: -0.16141506, y: 0.03446318, z: 0.0272018}
+      rotation: {x: 0.000000050291412, y: -0, z: -0.0000000684522, w: 1}
+      scale: {x: 0.9999998, y: 0.9999998, z: 1.0000002}
+    - name: wy01m_low_rig:Lf_cloth_Ctrl1_Jnt_skin
+      parentName: wy01m_low_rig:Lf_Arm5_jnt_skin
+      position: {x: -0.24584208, y: -0.0005321634, z: -0.005162744}
+      rotation: {x: -0.00012939259, y: 0.054844797, z: -0.0117560625, w: 0.99842566}
+      scale: {x: 1, y: 1.0000005, z: 1.0000002}
+    - name: wy01m_low_rig:Rt_clavicle1_jnt_skin
+      parentName: wy01m_low_rig:spline5_jnt_skin
+      position: {x: -0.16161434, y: 0.002837757, z: 0.0211022}
+      rotation: {x: 0.5403245, y: 0.52691525, z: 0.45714873, w: -0.47055802}
+      scale: {x: 1, y: 1.0000004, z: 1.0000004}
+    - name: wy01m_low_rig:Rt_Arm1_jnt_skin
+      parentName: wy01m_low_rig:Rt_clavicle1_jnt_skin
+      position: {x: 0.15173252, y: 0.0000010326985, z: 0.00000041578318}
+      rotation: {x: -0.08675643, y: 0.0008367001, z: -0.9962274, w: -0.001893848}
+      scale: {x: 1.0000007, y: 1.0000001, z: 1.0000004}
+    - name: wy01m_low_rig:Rt_Arm5_jnt_skin
+      parentName: wy01m_low_rig:Rt_Arm1_jnt_skin
+      position: {x: -0.2816275, y: 1.3372414e-12, z: 1.7841727e-12}
+      rotation: {x: -0.021885017, y: 0.0023330452, z: 0.9997387, w: 0.006181955}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000004}
+    - name: wy01m_low_rig:Rt_Arm9_jnt_skin
+      parentName: wy01m_low_rig:Rt_Arm5_jnt_skin
+      position: {x: 0.2033357, y: -0.0000004541679, z: 0.00000012678872}
+      rotation: {x: 0.0000000045110937, y: 0.0778486, z: 0.0058583505, w: 0.99694806}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000004}
+    - name: wy01m_low_rig:Rt_thumb1_jnt_skin
+      parentName: wy01m_low_rig:Rt_Arm9_jnt_skin
+      position: {x: 0.036544092, y: 0.020111777, z: -0.017092828}
+      rotation: {x: -0.57626355, y: -0.3238123, z: 0.16465187, w: -0.73209}
+      scale: {x: 1.0000001, y: 1.0000005, z: 0.99999994}
+    - name: wy01m_low_rig:Rt_thumb2_jnt_skin
+      parentName: wy01m_low_rig:Rt_thumb1_jnt_skin
+      position: {x: 0.057167966, y: 0.0026734334, z: 0.0000016688975}
+      rotation: {x: -0.0000015497201, y: -0.00003395973, z: 0.07761205, w: 0.99698365}
+      scale: {x: 1.0000006, y: 1.0000004, z: 1}
+    - name: wy01m_low_rig:Rt_thumb3_jnt_skin
+      parentName: wy01m_low_rig:Rt_thumb2_jnt_skin
+      position: {x: 0.027973417, y: -0.00094268564, z: -0.0000018794107}
+      rotation: {x: -0.000000043916405, y: 0.00000009994929, z: 0.07067578, w: 0.9974994}
+      scale: {x: 1.0000002, y: 1, z: 0.99999994}
+    - name: wy01m_low_rig:Rt_index1_jnt_skin
+      parentName: wy01m_low_rig:Rt_Arm9_jnt_skin
+      position: {x: 0.116327785, y: -0.00016629884, z: -0.028455535}
+      rotation: {x: -0.0018486688, y: -0.008906721, z: 0.04310576, w: 0.99902916}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: wy01m_low_rig:Rt_index2_jnt_skin
+      parentName: wy01m_low_rig:Rt_index1_jnt_skin
+      position: {x: 0.04669249, y: 0.00018154822, z: -0.00000008488767}
+      rotation: {x: -0.00000008265488, y: 0.000000022351742, z: 0.042500813, w: 0.99909645}
+      scale: {x: 1.0000002, y: 1.0000008, z: 1.0000007}
+    - name: wy01m_low_rig:Rt_index3_jnt_skin
+      parentName: wy01m_low_rig:Rt_index2_jnt_skin
+      position: {x: 0.026433282, y: -0.00004996689, z: -0.0000002890352}
+      rotation: {x: 0.000000018606434, y: -0.000000041989907, z: 0.024832454, w: 0.9996916}
+      scale: {x: 0.9999998, y: 1, z: 1}
+    - name: wy01m_low_rig:Rt_mid1_jnt_skin
+      parentName: wy01m_low_rig:Rt_Arm9_jnt_skin
+      position: {x: 0.10869371, y: 0.001113565, z: 0.017432733}
+      rotation: {x: -0.0026897897, y: -0.10959373, z: 0.06935948, w: 0.9915499}
+      scale: {x: 1, y: 1.0000002, z: 1.0000004}
+    - name: wy01m_low_rig:Rt_mid2_jnt_skin
+      parentName: wy01m_low_rig:Rt_mid1_jnt_skin
+      position: {x: 0.043100443, y: -0.00023349744, z: 0.000000046487926}
+      rotation: {x: -0.000000042840835, y: 0.000000052154057, z: 0.015729299, w: 0.9998763}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000004}
+    - name: wy01m_low_rig:Rt_mid3_jnt_skin
+      parentName: wy01m_low_rig:Rt_mid2_jnt_skin
+      position: {x: 0.027454618, y: -0.000007523105, z: -0.00000005399481}
+      rotation: {x: 0.00000008522772, y: -0.00000006847475, z: 0.0016467274, w: 0.9999987}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.9999996}
+    - name: wy01m_low_rig:cloth_Jnt3
+      parentName: wy01m_low_rig:Rt_Arm5_jnt_skin
+      position: {x: 0.03281511, y: -0.050251096, z: 0.018089417}
+      rotation: {x: -0.023810014, y: -0.22577165, z: 0.036810208, w: 0.97319335}
+      scale: {x: 1.0000002, y: 1.0000002, z: 0.99999994}
+    - name: wy01m_low_rig:cloth_Jnt4
+      parentName: wy01m_low_rig:cloth_Jnt3
+      position: {x: 0.10917788, y: -0.040659495, z: -0.107060604}
+      rotation: {x: -0.000000054016713, y: 0.000000014901163, z: 0.00000006891788,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: wy01m_low_rig:Rt_cloth_Ctrl1_Jnt_skin
+      parentName: wy01m_low_rig:Rt_Arm5_jnt_skin
+      position: {x: 0.18131225, y: 0.019665679, z: 0.03876162}
+      rotation: {x: -0.00012941634, y: 0.054844745, z: -0.011756087, w: 0.9984257}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000004}
+    - name: wy01m_low_rig:neck1_jnt1_skin
+      parentName: wy01m_low_rig:spline5_jnt_skin
+      position: {x: -0.1996224, y: 0.00893606, z: 8.5265126e-16}
+      rotation: {x: 0.000000002543084, y: -0.0000000274598, z: 0.08196689, w: 0.99663514}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: wy01m_low_rig:head_jnt_skin
+      parentName: wy01m_low_rig:neck1_jnt1_skin
+      position: {x: -0.09598205, y: 1.847411e-15, z: -5.32907e-16}
+      rotation: {x: 0.00000003703044, y: 0.000000086663306, z: -0.00000017136334,
+        w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999998}
+    - name: wy01m_low_rig:Lf_Leg1_jnt_skin
+      parentName: wy01m_low_rig:spline1_jnt_skin
+      position: {x: -0.09688495, y: -0.06804848, z: -0.00008295913}
+      rotation: {x: -0.0012846664, y: 0.0013203608, z: 0.6973512, w: 0.71672726}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000001}
+    - name: wy01m_low_rig:Lf_Leg5_jnt_skin
+      parentName: wy01m_low_rig:Lf_Leg1_jnt_skin
+      position: {x: -0.39074835, y: -1.0658141e-16, z: -2.5757173e-16}
+      rotation: {x: -0.00021672604, y: -0.05483272, z: 0.000011838554, w: 0.9984955}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: wy01m_low_rig:Lf_Leg9_jnt_skin
+      parentName: wy01m_low_rig:Lf_Leg5_jnt_skin
+      position: {x: -0.4866183, y: 2.088953e-11, z: -0.00000004785081}
+      rotation: {x: 0.0000000037107384, y: -0.0000000037252903, z: -2.0372681e-10,
+        w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
+    - name: wy01m_low_rig:Lf_foot_drv_skin
+      parentName: wy01m_low_rig:Lf_Leg9_jnt_skin
+      position: {x: -0.07689071, y: 0.020195488, z: 0.1409426}
+      rotation: {x: 0.44111165, y: 0.47630915, z: -0.5345344, w: 0.54113126}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: wy01m_low_rig:Rt_Leg1_jnt_skin
+      parentName: wy01m_low_rig:spline1_jnt_skin
+      position: {x: 0.096885, y: -0.068048425, z: -0.00008295729}
+      rotation: {x: -0.0013204691, y: 0.0012847071, z: 0.71672726, w: 0.69735116}
+      scale: {x: 1, y: 1, z: 1}
+    - name: wy01m_low_rig:Rt_Leg5_jnt_skin
+      parentName: wy01m_low_rig:Rt_Leg1_jnt_skin
+      position: {x: -0.39074832, y: 0.00000020357753, z: -0.00000022261501}
+      rotation: {x: -0.000011906162, y: -0.9984955, z: -0.00021671806, w: -0.054832853}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: wy01m_low_rig:Rt_Leg9_jnt_skin
+      parentName: wy01m_low_rig:Rt_Leg5_jnt_skin
+      position: {x: 0.4866181, y: 0.00000004706886, z: -0.0000005203467}
+      rotation: {x: 0.000000020458572, y: 0.000000067055225, z: -0.0000000011477823,
+        w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: wy01m_low_rig:Rt_foot_drv_skin
+      parentName: wy01m_low_rig:Rt_Leg9_jnt_skin
+      position: {x: 0.07689099, y: -0.020195803, z: -0.14094219}
+      rotation: {x: 0.4411117, y: 0.4763091, z: -0.5345344, w: 0.5411314}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: wy01m_low_rig:cloth_Jnt5_skin
+      parentName: wy01m_low_rig:spline1_jnt_skin
+      position: {x: -0.031556487, y: 0.038919754, z: 0.091809474}
+      rotation: {x: 0.48641187, y: 0.5132285, z: 0.48641187, w: 0.51322854}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000005}
+    - name: wy01m_low_rig:cloth_Jnt6_skin
+      parentName: wy01m_low_rig:cloth_Jnt5_skin
+      position: {x: -0.07226175, y: 0.05083249, z: -0.00022826742}
+      rotation: {x: 0.000000029802322, y: 0.000000029802322, z: -0.000000059604645,
+        w: 1}
+      scale: {x: 0.99999976, y: 0.9999999, z: 0.9999998}
+    - name: wy01m_low_rig:cloth_Jnt9_skin
+      parentName: wy01m_low_rig:spline1_jnt_skin
+      position: {x: -0.15458642, y: 0.057665627, z: -0.0025118093}
+      rotation: {x: 0.0072768917, y: -0.006317085, z: 0.6555157, w: 0.75512016}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: wy01m_low_rig:cloth_Jnt10_skin
+      parentName: wy01m_low_rig:cloth_Jnt9_skin
+      position: {x: -0.100964636, y: -0.0036329627, z: 0.006977456}
+      rotation: {x: -0.00000001164153, y: -0.0000000013969838, z: 0.000000013627867,
+        w: 1}
+      scale: {x: 1, y: 0.9999999, z: 1}
+    - name: wy01m_low_rig:cloth_Jnt7_skin
+      parentName: wy01m_low_rig:spline1_jnt_skin
+      position: {x: 0.045104757, y: 0.07058659, z: -0.11037171}
+      rotation: {x: -0.44815934, y: -0.5469491, z: 0.44815925, w: 0.546949}
+      scale: {x: 1, y: 1, z: 1}
+    - name: wy01m_low_rig:cloth_Jnt8_skin
+      parentName: wy01m_low_rig:cloth_Jnt7_skin
+      position: {x: -0.095161796, y: 0.03390198, z: -0.0043830876}
+      rotation: {x: 0.000000059604645, y: 0.000000029802322, z: -0.000000059604645,
+        w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: wy01m_low_rig:cloth_Jnt11_skin
+      parentName: wy01m_low_rig:spline1_jnt_skin
+      position: {x: 0.16586664, y: 0.062977724, z: 0.025462262}
+      rotation: {x: 0.6555208, y: 0.75511575, z: 0.0072764503, w: -0.006316622}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999998}
+    - name: wy01m_low_rig:cloth_Jnt12_skin
+      parentName: wy01m_low_rig:cloth_Jnt11_skin
+      position: {x: -0.12099503, y: 0.0038055459, z: 0.0003615522}
+      rotation: {x: 0.000000046566118, y: 0.00000002374872, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.99999994}
+    - name: wy01m_low_rig:cloth_Jnt13_skin
+      parentName: wy01m_low_rig:spline1_jnt_skin
+      position: {x: 0.025994318, y: -0.121106066, z: 0.10845676}
+      rotation: {x: 0.4833342, y: 0.51612794, z: 0.4833342, w: 0.516128}
+      scale: {x: 0.9999998, y: 1, z: 0.9999999}
+    - name: wy01m_low_rig:cloth_Jnt14_skin
+      parentName: wy01m_low_rig:cloth_Jnt13_skin
+      position: {x: -0.105717935, y: 0.020604018, z: -0.010298085}
+      rotation: {x: 0.000000029802319, y: 0.000000029802319, z: 0.011625632, w: 0.9999324}
+      scale: {x: 1, y: 0.9999999, z: 1.0000002}
+    - name: wy01m_low_rig:kettle_jnt
+      parentName: wy01m_low_rig:root
+      position: {x: -0, y: 0.14, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.001, y: 0.001, z: 0.001}
+    - name: wy01m_low_rig:wy_60008_lod_mo
+      parentName: skill_D(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
