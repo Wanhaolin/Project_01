@@ -56,6 +56,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _VertexOffsetMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _VertexOffsetTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -73,8 +77,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _BackFaceIntensity: 1
     - _BackFaceOn: 1
     - _BackFaceStr: 1
+    - _ColorScale: 1
     - _CullMode: 0
     - _DissHardness: 0.445
     - _DissHardness1: 0
@@ -83,13 +89,20 @@ Material:
     - _Dissolution: 0
     - _DissolutionOn: 1
     - _DissolutionSoft: 0.6
+    - _DisturbFadeTex: 0
     - _DisturbOn: 0
+    - _DisturbRamp: 0
     - _DisturbStr: 0
+    - _Dst: 10
     - _FadeRange: 1
     - _Float0: 1.45
     - _Float1: 0.09
     - _FlowOn: 0
     - _FlowStr: 0
+    - _FreInvers: 0
+    - _FreOn: 0
+    - _FrePower: 5
+    - _FreScale: 1
     - _Invers1: 1
     - _Invers2: 1
     - _Invers3: 0
@@ -98,7 +111,9 @@ Material:
     - _Noise_BInvers: 0
     - _Noise_GInvers: 0
     - _Noise_RInvers: 0
+    - _OwnUV: 0
     - _RGBA: 0
+    - _RampDisStr: 0
     - _Rotater: 0
     - _SoftParticle: 1
     - _UV1_TContorlDis: 1
@@ -106,10 +121,12 @@ Material:
     - _UV2ControlOffset: 0
     - _UV2WTContorlOffset: 0
     - _UV2YContorlFlow: 1
+    - _UV2_WTControlOffset: 0
     - _UV3_XContorlDisturb: 0
     - _VertexOffsetOn: 0
     - _VertexOffsetStr: 1
     - _ZTestMode: 4
+    - _ZWriteMode: 0
     - __dirty: 0
     - _range1: 0.02
     - _range2: 0.43
@@ -118,7 +135,7 @@ Material:
     - _soft2: 0.5
     - _soft3: 0.5
     m_Colors:
-    - _BackFaceColor: {r: 1.9854449, g: 1.9854449, b: 1.9854449, a: 0}
+    - _BackFaceColor: {r: 1, g: 1, b: 1, a: 0}
     - _Color0: {r: 2, g: 1.3333334, b: 0.59607846, a: 0}
     - _Color1: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 0}
     - _Color2: {r: 0.7490196, g: 0.7490196, b: 0.7490196, a: 0}
@@ -126,9 +143,13 @@ Material:
     - _DissolutionTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _DisturbDir: {r: 1, g: 1, b: 0, a: 0}
     - _DisturbPanner: {r: 0, g: 0, b: 1, a: 0}
-    - _MainColor: {r: 2, g: 2, b: 2, a: 0}
+    - _FadeTexPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _MainColor: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 0}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
+    - _MaskTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _NoisePanner: {r: 0, g: 0, b: 1, a: 0}
+    - _OffsetDir: {r: 1, g: 1, b: 1, a: 0}
+    - _UVSlant: {r: 0, g: 0, b: 0, a: 0}
     - _VertexOffsetTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _panner: {r: 0, g: -0.5, b: 1, a: 0}
   m_BuildTextureStacks: []
