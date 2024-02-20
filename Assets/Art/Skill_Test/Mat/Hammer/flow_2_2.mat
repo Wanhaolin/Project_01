@@ -10,7 +10,7 @@ Material:
   m_Name: flow_2_2
   m_Shader: {fileID: 4800000, guid: a5a93bc9cbe536843b744d4cf1c0bcce, type: 3}
   m_ShaderKeywords: _DISSOLUTIONON_ON _DISTURBON_ON _SOFTPARTICLE_ON _UV1_TCONTORLDIS_ON
-    _UV2_WTCONTROLOFFSET_ON _VERTEXOFFSETON_ON
+    _UV2_WTCONTROLOFFSET_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -110,7 +110,7 @@ Material:
     - _UV2_WTControlOffset: 1
     - _UV3_XContorlDisturb: 0
     - _UVType: 1
-    - _VertexOffsetOn: 1
+    - _VertexOffsetOn: 0
     - _VertexOffsetStr: 25.15
     - _ZTestMode: 4
     - _ZWriteMode: 0
@@ -122,7 +122,7 @@ Material:
     - _DisturbDir: {r: 1, g: 0.5, b: 0, a: 0}
     - _DisturbPanner: {r: 0, g: -0.4, b: 1, a: 0}
     - _FadeTexPanner: {r: 0, g: -0.3, b: 1, a: 0}
-    - _MainColor: {r: 1.4980392, g: 1.4980392, b: 1.4980392, a: 0}
+    - _MainColor: {r: 4, g: 4, b: 4, a: 0}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _MaskTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _OffsetDir: {r: 1, g: 1, b: 1, a: 0}
