@@ -53,8 +53,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: -0.08, y: -0.04}
     - _DisturbTex:
-        m_Texture: {fileID: 2800000, guid: 9b5b884fb6a02ab438c75a18a89d64c8, type: 3}
-        m_Scale: {x: 3, y: 1}
+        m_Texture: {fileID: 2800000, guid: d5ae13cce4f088e4d9f1cb804bdcb758, type: 3}
+        m_Scale: {x: 1, y: 3}
         m_Offset: {x: 0, y: 0}
     - _DisturbTex2:
         m_Texture: {fileID: 0}
@@ -145,11 +145,11 @@ Material:
     - _Dissolution_ON: 0
     - _DissolveHardness: 0.3935294
     - _Distance: 0.1
-    - _DisturType: 1
+    - _DisturType: 0
     - _DisturbFadeTex: 0
     - _DisturbOn: 1
     - _DisturbRamp: 0
-    - _DisturbStr: 1
+    - _DisturbStr: 0.2
     - _Disturb_ON: 1
     - _Dst: 10
     - _DstBlend: 0
@@ -228,13 +228,13 @@ Material:
     - _DissolutionTexPanner: {r: 0, g: -0.35, b: 1, a: 0}
     - _Disturb2Panner: {r: 0, g: 0, b: 1, a: 0}
     - _DisturbDir: {r: 1, g: 0, b: 0, a: 0}
-    - _DisturbPanner: {r: 2, g: 0, b: 1, a: 0}
+    - _DisturbPanner: {r: 5, g: 0, b: 1, a: 0}
     - _EdgeEmissColor: {r: 1, g: 1, b: 1, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _FadeTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _Fre: {r: 0, g: 1, b: 2.76, a: 0}
     - _MainColor: {r: 3.9999995, g: 3.9999995, b: 3.9999995, a: 0}
-    - _MainTexPanner: {r: 7, g: 0, b: 1, a: 0}
+    - _MainTexPanner: {r: 4, g: 0, b: 1, a: 0}
     - _MaskTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _NoiseFlip: {r: 0, g: 0, b: 1, a: 0}
     - _NoisePanner: {r: 0, g: 0, b: 1, a: 0}
