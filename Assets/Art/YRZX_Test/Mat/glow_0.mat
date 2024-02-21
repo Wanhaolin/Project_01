@@ -153,8 +153,8 @@ Material:
     - _EmissionStr: 1
     - _Fade: 0
     - _FadeHardnss: 1
-    - _FadeRange: 10
-    - _FadeSoft: 1.5
+    - _FadeRange: 2.34
+    - _FadeSoft: 1.104
     - _Float10: 0
     - _Float14: 0.1
     - _Float6: 1
