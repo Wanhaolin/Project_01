@@ -104,8 +104,8 @@ Material:
     - _Float9: 0
     - _FreInvers: 1
     - _FreOn: 0
-    - _FrePower: 2
-    - _FreScale: 0.1
+    - _FrePower: -5
+    - _FreScale: 1
     - _Fre_ON: 1
     - _Invers: 0
     - _MainTexChannel: 3

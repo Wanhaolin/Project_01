@@ -36,7 +36,7 @@ Material:
         m_Offset: {x: 0, y: 0.36}
     - _MainTex:
         m_Texture: {fileID: 2800000, guid: 7ed3ff3a17b4be14cbfb32b4f0bd32a6, type: 3}
-        m_Scale: {x: 1, y: 0.66}
+        m_Scale: {x: 1, y: 0.38}
         m_Offset: {x: 0, y: 0}
     - _Mask_Tex:
         m_Texture: {fileID: 0}
@@ -98,7 +98,7 @@ Material:
     - _FadeSoft: 1.5
     - _FadeTexChannel: 0
     - _Float10: 0.459
-    - _Float14: 0.121
+    - _Float14: 0.027
     - _Float6: 1
     - _Float8: 1.5
     - _Float9: 0
@@ -140,7 +140,7 @@ Material:
     - __dirty: 0
     m_Colors:
     - _BackFaceColor: {r: 0, g: 1.6, b: 8, a: 1}
-    - _DissEdgeColor: {r: 0.5506853, g: 0.6363784, b: 0.7075472, a: 0}
+    - _DissEdgeColor: {r: 0.6800155, g: 1.4200785, b: 1.4862194, a: 0}
     - _DissolutionTexPanner: {r: 0.25, g: -2, b: 1, a: 0}
     - _DisturbDir: {r: 1, g: 1, b: 0, a: 0}
     - _DisturbPanner: {r: 0.25, g: -1.25, b: 1, a: 0}

@@ -35,8 +35,8 @@ Material:
         m_Scale: {x: 1, y: 0.5}
         m_Offset: {x: 0, y: 0.36}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 2bc3a8e5955c76747aae78989a65ca82, type: 3}
-        m_Scale: {x: 1, y: 1}
+        m_Texture: {fileID: 2800000, guid: 0cced15833230ec4d8d59f42fddfbf7e, type: 3}
+        m_Scale: {x: 1, y: 0.38}
         m_Offset: {x: 0, y: 0}
     - _Mask_Tex:
         m_Texture: {fileID: 0}
@@ -73,11 +73,11 @@ Material:
     m_Floats:
     - _1: 0
     - _AlphaChannel: 0
-    - _AlphaScale: 0.6
+    - _AlphaScale: 2
     - _BackFaceIntensity: 1
     - _BackFaceOn: 0
     - _BackFace_ON: 1
-    - _ColorScale: 2
+    - _ColorScale: 1
     - _CullMode: 2
     - _DissEdge_ON: 0
     - _DissHardness: 0.51
@@ -97,8 +97,8 @@ Material:
     - _FadeRange: 10
     - _FadeSoft: 1.5
     - _FadeTexChannel: 0
-    - _Float10: 0.653
-    - _Float14: 0.5
+    - _Float10: 1.014
+    - _Float14: 0.095
     - _Float6: 1
     - _Float8: 1.5
     - _Float9: 0
@@ -140,12 +140,12 @@ Material:
     - __dirty: 0
     m_Colors:
     - _BackFaceColor: {r: 0, g: 1.6, b: 8, a: 1}
-    - _DissEdgeColor: {r: 0.79528534, g: 2.0814877, b: 1.2801365, a: 0}
+    - _DissEdgeColor: {r: 2.7789495, g: 2.7789495, b: 2.7789495, a: 0}
     - _DissolutionTexPanner: {r: 0.25, g: -2, b: 1, a: 0}
     - _DisturbDir: {r: 1, g: 1, b: 0, a: 0}
     - _DisturbPanner: {r: 0.25, g: -1.25, b: 1, a: 0}
     - _FadeTexPanner: {r: 0, g: 0, b: 1, a: 0}
-    - _MainColor: {r: 3.9999995, g: 3.9999995, b: 3.9999995, a: 0}
+    - _MainColor: {r: 6.9279532, g: 6.9279532, b: 6.9279532, a: 0}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _MaskTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _OffsetDir: {r: 1, g: 1, b: 1, a: 0}
