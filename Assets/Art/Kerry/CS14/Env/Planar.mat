@@ -109,7 +109,7 @@ Material:
     - _Parallax: 0.02
     - _ParallaxDepth: 0.2
     - _Range: -8.9
-    - _RefIntensity: 0.1
+    - _RefIntensity: 0.01
     - _ShadowRange: 0
     - _ShadowSoft: 1
     - _Smoothness: 1

@@ -101,8 +101,8 @@ Material:
     - _FlowStr: 0
     - _FreInvers: 0
     - _FreOn: 1
-    - _FrePower: 0.5
-    - _FreScale: 0.5
+    - _FrePower: 1.7
+    - _FreScale: 0.89
     - _Invers1: 1
     - _Invers2: 1
     - _Invers3: 0

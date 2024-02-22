@@ -214,7 +214,7 @@ Material:
     - _VertexOffsetStr: 0
     - _VertexOffset_ON: 0
     - _VertexVFade: 0
-    - _ZTestMode: 8
+    - _ZTestMode: 4
     - _ZWrite: 1
     - _ZWriteMode: 0
     - __dirty: 0
