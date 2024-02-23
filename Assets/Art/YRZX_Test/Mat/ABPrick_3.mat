@@ -10,8 +10,8 @@ Material:
   m_Name: ABPrick_3
   m_Shader: {fileID: 4800000, guid: 49ba17f42103da246a7744901a51065b, type: 3}
   m_ShaderKeywords: _ALPHACHANNEL_R _DISSOLUTIONON_ON _DISSOLUTION_ON_ON _DISTURBON_ON
-    _DISTURB_ON_ON _MAINTEXCHANNEL_A _SOFTPARTICLE_ON _TOGGLESWITCH4_ON _UV1_TCONTORLDIS_ON
-    _UV1_WCONTORLEMISSION_ON _UV2WCONTROLOFFSET_ON _UV3_XCONTORLDISTURB_ON
+    _DISTURB_ON_ON _MAINTEXCHANNEL_A _SOFTPARTICLE_ON _SOFTPARTICLE_ON_ON _TOGGLESWITCH4_ON
+    _UV1_TCONTORLDIS_ON _UV1_WCONTORLEMISSION_ON _UV2WCONTROLOFFSET_ON _UV3_XCONTORLDISTURB_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -152,8 +152,9 @@ Material:
     - _EmissionStr: 1
     - _Fade: 0
     - _FadeHardnss: 1
-    - _FadeRange: 0
-    - _FadeSoft: 0.5
+    - _FadeMode: 0
+    - _FadeRange: 10
+    - _FadeSoft: 1.5
     - _Float10: 2
     - _Float14: 0.1
     - _Float6: 1
@@ -188,7 +189,7 @@ Material:
     - _Rotater: 180
     - _SmoothnessTextureChannel: 0
     - _SoftParticle: 1
-    - _SoftParticle_ON: 0
+    - _SoftParticle_ON: 1
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _ToggleSwitch4: 1

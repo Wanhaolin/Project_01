@@ -157,6 +157,7 @@ Material:
     - _EmissionStr: 1
     - _Fade: 0
     - _FadeHardnss: 1
+    - _FadeMode: 0
     - _FadeRange: 10
     - _FadeSoft: 1.5
     - _Float10: 0
@@ -218,7 +219,7 @@ Material:
     - _ZTest: 0
     - _ZTestMode: 8
     - _ZWrite: 1
-    - _ZWriteMode: 1
+    - _ZWriteMode: 0
     - __dirty: 0
     m_Colors:
     - _BackFaceColor: {r: 0, g: 0, b: 0, a: 0}

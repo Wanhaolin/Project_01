@@ -63,8 +63,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _FadeTex:
         m_Texture: {fileID: 2800000, guid: eb0dd708adbf5b948b68f4d614ec6c28, type: 3}
-        m_Scale: {x: 0.25, y: 1}
-        m_Offset: {x: 0.13, y: 0}
+        m_Scale: {x: 0.5, y: 1}
+        m_Offset: {x: 2.05, y: 0}
     - _FlowTex:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -123,7 +123,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _AlphaChannel: 0
-    - _AlphaScale: 3
+    - _AlphaScale: 1
     - _BackFaceOn: 0
     - _BackFaceStr: 1
     - _BackFace_ON: 0
