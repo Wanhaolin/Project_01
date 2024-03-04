@@ -87,10 +87,11 @@ Material:
     - _DisturbStr: -0.14
     - _Disturb_ON: 1
     - _Dst: 10
+    - _FadeMode: 0
     - _FadeRange: 10
     - _FadeSoft: 1.192
-    - _Float10: 0.213
-    - _Float14: 0.141
+    - _Float10: 0.33
+    - _Float14: 0.017
     - _Float6: 1
     - _Float8: 1.5
     - _Float9: 0
@@ -128,7 +129,7 @@ Material:
     - __dirty: 0
     m_Colors:
     - _BackFaceColor: {r: 0, g: 0, b: 0, a: 0}
-    - _DissEdgeColor: {r: 1.2146596, g: 3.0157065, b: 6.575916, a: 0}
+    - _DissEdgeColor: {r: 0, g: 7.9058867, b: 6.7883005, a: 0}
     - _DissolutionTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _DisturbDir: {r: 1, g: 1, b: 0, a: 0}
     - _DisturbPanner: {r: 0, g: 0.5, b: 1, a: 0}
