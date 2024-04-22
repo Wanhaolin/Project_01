@@ -136,6 +136,7 @@ Material:
     - _BumpScale: 1
     - _ColorChange: 1
     - _ColorIntensity: 1
+    - _ColorScale: 1
     - _CullMode: 2
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1

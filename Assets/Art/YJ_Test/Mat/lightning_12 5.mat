@@ -137,12 +137,13 @@ Material:
     - _DisturbDir: {r: 0, g: 1, b: 0, a: 0}
     - _DisturbPanner: {r: 0, g: 0, b: 1, a: 0}
     - _Drect: {r: 2, g: 0, b: 1, a: 0}
-    - _MainColor: {r: 1024, g: 1024, b: 1024, a: 0}
+    - _MainColor: {r: 178.90817, g: 178.90817, b: 178.90817, a: 0}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _NoiseOffset: {r: 0, g: 0.17, b: 0.5, a: 0}
-    - _OffsetDir: {r: -5.44, g: 3, b: -2, a: 0}
+    - _OffsetDir: {r: -5.38, g: 5.13, b: 4.03, a: 0}
     - _Offset_1: {r: 0, g: 0.1, b: 0, a: 0}
-    - _Offset_2: {r: 0, g: 0.1, b: 0, a: 0}
+    - _Offset_2: {r: 0, g: 0.2, b: 0, a: 0}
+    - _Offset_3: {r: 0, g: 0.3, b: 0, a: 0}
     - _Vector0: {r: 0, g: 0, b: 0, a: 0}
     - _VertexOffsetTexPanner: {r: 0.1, g: -0.1, b: 1, a: 0}
   m_BuildTextureStacks: []

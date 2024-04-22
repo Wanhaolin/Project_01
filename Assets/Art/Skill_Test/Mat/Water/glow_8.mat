@@ -125,6 +125,7 @@ Material:
     - _BackFaceOn: 0
     - _BackFaceStr: 1
     - _BumpScale: 1
+    - _ColorScale: 1
     - _CullMode: 2
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -165,6 +166,7 @@ Material:
     - _Mode: 0
     - _NoiseEmissionStr: 1
     - _OcclusionStrength: 1
+    - _OwnUV: 0
     - _Parallax: 0.02
     - _RGB: 0
     - _RGBA: 0
@@ -215,5 +217,6 @@ Material:
     - _NoisePanner: {r: 0, g: 0, b: 1, a: 0}
     - _NoiseTiling: {r: 1, g: 1, b: 0, a: 0}
     - _OffsetDir: {r: 1, g: 1, b: 1, a: 0}
+    - _UVSlant: {r: 0, g: 0, b: 0, a: 0}
     - _VertexOffsetTexPanner: {r: 0, g: 0.5, b: 1, a: 0}
   m_BuildTextureStacks: []

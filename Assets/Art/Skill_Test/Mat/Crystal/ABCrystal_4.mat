@@ -126,6 +126,7 @@ Material:
     - _BackFaceOn: 0
     - _BackFaceStr: 1
     - _BumpScale: 1
+    - _ColorScale: 1
     - _CullMode: 0
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
@@ -135,6 +136,7 @@ Material:
     - _DissolutionSoft: 1
     - _DissolutionTexOneMinus: 0
     - _DissolveHardness: 0.3935294
+    - _DisturType: 1
     - _DisturbFadeTex: 0
     - _DisturbOn: 1
     - _DisturbRamp: 0
@@ -193,6 +195,7 @@ Material:
     - _UV2_WTControlOffset: 0
     - _UV3_XContorlDisturb: 0
     - _UVSec: 0
+    - _UVType: 1
     - _VFade: 0
     - _VertexFadeRange: 1
     - _VertexFadeSoft: 1
@@ -223,5 +226,6 @@ Material:
     - _NoisePanner: {r: 0, g: 0, b: 1, a: 0}
     - _NoiseTiling: {r: 1, g: 1, b: 0, a: 0}
     - _OffsetDir: {r: 1, g: 1, b: 1, a: 0}
+    - _ScreenTilingOffset: {r: 1, g: 1, b: 0, a: 0}
     - _VertexOffsetTexPanner: {r: 0, g: 0, b: 1, a: 0}
   m_BuildTextureStacks: []
