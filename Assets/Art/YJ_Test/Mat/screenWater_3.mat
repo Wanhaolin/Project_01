@@ -82,7 +82,7 @@ Material:
     - _DisturbPanner: {r: 0, g: 0, b: 1, a: 0}
     - _DisturbTlingOffset: {r: 2, g: 0.25, b: 0, a: 0}
     - _FadeTexPanner: {r: 0, g: 0, b: 1, a: 0}
-    - _FadeTlingOffset: {r: 1, g: 0, b: 0, a: 0.27}
+    - _FadeTlingOffset: {r: 1, g: 0.93, b: 0, a: 0.27}
     - _MainColor: {r: 5.992157, g: 5.992157, b: 5.992157, a: 1}
     - _MainTexPanner: {r: 0, g: 0, b: 1, a: 0}
     - _MainTlingOffset: {r: 2, g: 0.5, b: 0, a: 0.39}
